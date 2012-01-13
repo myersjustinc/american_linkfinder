@@ -28,3 +28,13 @@ Questions?
 ----------
 
 Email: justin at justinmyers dot net
+
+Revision history
+----------------
+
+Jan. 13, 2012: 
+
+* Added support for product IDs with cat-group-spec-id attributes
+* Moved conversion code into one module instead of duplicating it in 
+  command-line and web.py versions
+* Moved from Gist to proper GitHub repo
