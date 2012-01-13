@@ -17,16 +17,19 @@ class upload:
         return """<!DOCTYPE html>
         <html>
             <head>
-                <title>Census bookmark generator</title>
+                <title>American LinkFinder</title>
                 <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
             </head>
             <body>
+                <h1>American LinkFinder</h1>
                 <form method="POST" enctype="multipart/form-data" action="">
                     <label for="aff">AFF (query) file:</label>
                     <input type="file" name="aff" />
                     <br /><br />
                     <input type="submit" value="Go" />
                 </form>
+                <p><a href="https://github.com/myersjustinc/american_linkfinder">How's it done?</a></p>
+                <p><a href="http://www.google.com/recaptcha/mailhide/d?k=01zfAFGGVwaYMLGrppU_E43w==&c=d49xz4RZfPG6pHMyg6aDy0CWSSRUQwGLfUhrXbJYrnU=">Questions? Suggestions?</a></p>
             </body>
         </html>"""
     
@@ -46,7 +49,9 @@ class upload:
             </head>
             <body>
                 <p>Here's your link: <a href="%(url)s">%(url)s</a></p>
-                <p><a href="/">Again?</a></p>
+                <p><a href="/">Convert another?</a></p>
+                <p><a href="https://github.com/myersjustinc/american_linkfinder">How's it done?</a></p>
+                <p><a href="http://www.google.com/recaptcha/mailhide/d?k=01zfAFGGVwaYMLGrppU_E43w==&c=d49xz4RZfPG6pHMyg6aDy0CWSSRUQwGLfUhrXbJYrnU=">Questions? Suggestions?</a></p>
             </body>
         </html>""" % {'url': url}
 

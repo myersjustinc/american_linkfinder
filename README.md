@@ -1,8 +1,8 @@
-AFF saved query converter
-=========================
+American LinkFinder
+===================
 
-This converter takes a saved query file from American FactFinder and generates
-a deep link URL corresponding to that query.
+This converter takes a saved query file from the U.S. Census Bureau's American
+FactFinder and generates a deep link URL corresponding to that query.
 
 There are two versions of the converter:
 
