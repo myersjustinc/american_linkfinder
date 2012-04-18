@@ -1,0 +1,5 @@
+.epio-app
+.DS_Store
+*.pyo
+*.pyc
+
