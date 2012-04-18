@@ -21,8 +21,8 @@ Web application
 The Web application (deep_link.py) takes a POST-ed .aff query file and outputs
 a page with the corresponding URL in a link.
 
-It also includes a basic requirements.txt (i.e., pip freeze) file and a
-configuration file for [ep.io](http://ep.io/) hosting (epio.ini).
+It also includes a basic requirements.txt (i.e., pip freeze) file and
+configuration files for [Heroku](http://www.heroku.com/) hosting.
 
 Questions?
 ----------
@@ -31,6 +31,11 @@ Email: justin at justinmyers dot net
 
 Revision history
 ----------------
+
+April 18, 2012:
+
+* Switched from ep.io to Heroku (including provided configuration files) due to
+  ep.io closing up shop
 
 Jan. 13, 2012: 
 
